@@ -62,21 +62,21 @@ var work = {
 		{
 			"employer":"SeeSharp Solutions Sdn Bhd",
 			"title":"Software Engineer",
-			"location":"Kuala Lumpur",
+			"location":"Tropicana Golf & Country Resort Jalan Kelab Tropicana Tropicana Petaling Jaya Selangor Malaysia",
 			"dates":"November 2014 - May 2015",
 			"description":"Building / hacking cool stuffs. Inspired to use technology to improve the lives of others"
 		},
 		{
 			"employer":"CIMB Investment Bank",
 			"title":"Management Trainee",
-			"location":"Kuala Lumpur",
+			"location":"KL Sentral Brickfields Kuala Lumpur Federal Territory of Kuala Lumpur Malaysia",
 			"dates":"May 2013 - September 2014",
 			"description":"Getting my hands dirty with Finance"
 		},
 		{
 			"employer":"Manulife Technology and Services",
 			"title":"Analyst Programmer",
-			"location":"Kuala Lumpur",
+			"location":"Bukit Damansara, Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
 			"dates":"May 2011 - April 2013",
 			"description":"Build web services, reporting application, mobile applications"
 		}
@@ -212,7 +212,7 @@ if(bio.skills.length > 0){
 }
 
 
-$('#main').append(internationalizeButton);
+//$('#main').append(internationalizeButton);
 
 // add map
 $("#mapDiv").append(googleMap);
