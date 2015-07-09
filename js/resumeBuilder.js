@@ -137,7 +137,7 @@ var bio = {
 	"name":"Calvin Low",
 	"role":"Full Stack Developer",
 	"contact_info":{
-		"mobile":"+6016-4113660",
+		//"mobile":"+6016-4113660",
 		"email":"calsaviour@gmail.com",
 		"github":"calsaviour",
 		"twitter":"calsaviour",
@@ -189,8 +189,8 @@ $("#header").append(formattedWelcomMessage);
 
 $("#main").append(work.current_position);
 
-var formattedMobile = HTMLmobile.replace("%data%",bio.contact_info.mobile);
-$("#topContacts").append(formattedMobile);
+// var formattedMobile = HTMLmobile.replace("%data%",bio.contact_info.mobile);
+// $("#topContacts").append(formattedMobile);
 
 var formattedEmail = HTMLemail.replace("%data%",bio.contact_info.email);
 $("#topContacts").append(formattedEmail);
